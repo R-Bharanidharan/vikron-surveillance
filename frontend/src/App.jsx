@@ -646,7 +646,7 @@ function App() {
           style={{ cursor: 'pointer' }}
         >
           <div style={{ width: '44px', height: '44px', background: 'transparent', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
-            <img src="/logo.png" alt="VIKRON Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="VIKRON Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
           </div>
           <h2 className="brand-title">VIKRON</h2>
         </motion.div>
