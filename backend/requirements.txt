@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+opencv-python
+torch
+torchvision
+facenet-pytorch
+numpy
+pandas
+Pillow
+aiofiles
+python-multipart
+SQLAlchemy
+websockets

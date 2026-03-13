@@ -1,0 +1,37 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Data, Models and Temporary Assets
+backend/models/face_embeddings.npy
+backend/models/labels.npy
+backend/models/model.h5
+*.h5
+*.npy
+*.pth
+*.pt
+debug_*.jpg
+*.log
+backend/data/students.csv
+*.db
+*.sqlite3
